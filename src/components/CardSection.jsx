@@ -22,7 +22,7 @@ const projects = [
   },
   {
     title: "Media Search App",
-    desc: "A responsive React app that lets users search for images and videos using public APIs and displays results in an interactive grid.",
+    desc: "React app using public APIs for media search with debounced search, Redux Toolkit state management, and responsive UI.",
     url: "https://d-media-search.netlify.app/",
     tags: ["React", "JavaScript", "APIs", "Redux Toolkit"],
   },

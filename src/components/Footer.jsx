@@ -18,8 +18,9 @@ dark:from-violet-900/5 dark:via-violet-900/10 dark:to-violet-900/20 --10"
             <span className="text-slate-800 dark:text-slate-100">();</span>
           </h2>
           <p className="text-slate-600 dark:text-slate-400 max-w-lg mx-auto">
-            Feel free to email me about anything. Do you have some feedback or
-            suggestions? I'd love to hear from you!
+            Open to frontend developer opportunities and collaborations. Feel
+            free to reach out — I’d love to connect. Do you have some feedback
+            or suggestions? I'd love to hear from you!
           </p>
         </div>
         <div className="flex justify-center gap-8 mb-4 md:mb-6 ">
