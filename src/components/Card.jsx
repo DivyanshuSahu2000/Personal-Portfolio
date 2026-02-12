@@ -1,6 +1,7 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa6";
 
-const Card = ({ title, url, desc, tags = [] }) => {
+const Card = ({ title, url, github, desc, tags = [] }) => {
   return (
     <>
       {" "}
@@ -20,21 +21,37 @@ const Card = ({ title, url, desc, tags = [] }) => {
             <h1 className="text-lg  text-slate-800 dark:text-slate-100 font-bold font-mono transition-colors duration-200 flex items-center">
               <span className="text-emerald-500 mr-2">&gt;</span> {title}
             </h1>
-            <p className="ml-4 text-slate-800/80 dark:text-slate-100/70">
+            <p
+              className="ml-4 text-slate-800/80 dark:text-slate-100/70 "
+              style={{ WebkitTapHighlightColor: "transparent" }}
+            >
               {desc}
             </p>
           </div>
           {/* <button > */}
-          <a
-            href={url}
-            target="_blank"
-            className="group  px-4 py-2 h-8 rounded-md text-slate-100 bg-slate-700 flex items-center gap-2 shadow-md transition-all duration-300 hover:bg-emerald-600"
-          >
-            <span className="text-sm font-mono">Live</span>
-            <span className="transition-transform duration-300 group-hover:-translate-y-1">
-              🚀
-            </span>
-          </a>
+          <div className="flex flex-col gap-2 ml-0.5">
+            {" "}
+            <a
+              href={url}
+              target="_blank"
+              className="group  px-4 py-2 h-8 rounded-md text-slate-100 bg-slate-700 flex items-center gap-2 shadow-md transition-all duration-300 hover:bg-emerald-600 "
+            >
+              <span className="text-sm font-mono">Live</span>
+              <span className="transition-transform duration-300 group-hover:-translate-y-1">
+                🚀
+              </span>
+            </a>
+            <a
+              href={github}
+              target="_blank"
+              className="group  px-4 py-2 h-8 rounded-md text-slate-100 bg-slate-700 flex items-center gap-2 shadow-md transition-all duration-300 hover:bg-emerald-600"
+            >
+              <span className="text-sm font-mono">Code</span>
+              <span className="transition-transform duration-300 group-hover:-translate-y-1">
+                <FaGithub size={18} />
+              </span>
+            </a>
+          </div>
           {/* </button> */}
         </div>
         <div>

@@ -17,7 +17,10 @@ dark:from-violet-900/5 dark:via-violet-900/10 dark:to-violet-900/20 --10"
             </span>
             <span className="text-slate-800 dark:text-slate-100">();</span>
           </h2>
-          <p className="text-slate-600 dark:text-slate-400 max-w-lg mx-auto">
+          <p
+            className="text-slate-600 dark:text-slate-400 max-w-lg mx-auto"
+            style={{ WebkitTapHighlightColor: "transparent" }}
+          >
             Open to frontend developer opportunities and collaborations. Feel
             free to reach out — I’d love to connect. Do you have some feedback
             or suggestions? I'd love to hear from you!

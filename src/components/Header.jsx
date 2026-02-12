@@ -5,15 +5,17 @@ const Header = ({ theme, toggleTheme }) => {
     <div className="sticky top-0 z-50">
       <header className=" md:px-15 px-2 sm:px-8 dark:text-amber-50 text-zinc-900 bg-amber-50/60 py-4 flex justify-between items-center backdrop-blur-xs  dark:bg-slate-900/30  border-b border-slate-300 dark:border-slate-600 ">
         <div className="flex items-center justify-center">
-          <div className="text-xl font-mono font-bold sm:mr-8 mr-6">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-purple-500 hover:text-white transition">
-              &lt;
-            </span>
-            <span className="dark:text-slate-100 ">DS</span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-700 hover:text-white transition">
-              /&gt;
-            </span>
-          </div>
+          <a href="/">
+            <div className="text-xl font-mono font-bold sm:mr-8 mr-6">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-purple-500 ">
+                &lt;
+              </span>
+              <span className="dark:text-slate-100 ">DS</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-700 ">
+                /&gt;
+              </span>
+            </div>
+          </a>
           <nav className="hiddn md:block">
             <ul className="flex   gap-3 sm:gap-8">
               <li>
@@ -37,10 +39,10 @@ const Header = ({ theme, toggleTheme }) => {
         </div>
 
         <div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 ">
             <button
               onClick={toggleTheme}
-              className="flex items-center justify-center w-10 h-10 rounded-md bg-slate-200 dark:bg-slate-700 transition-colors duration-200 hover:bg-slate-300 dark:hover:bg-slate-600"
+              className="flex items-center  justify-center w-10 h-10 rounded-md bg-slate-200 dark:bg-slate-700 transition-colors duration-200 hover:bg-slate-300 dark:hover:bg-slate-600 cursor-pointer"
               aria-label="Switch to dark mode"
             >
               {theme == "dark" ? (
