@@ -34,7 +34,8 @@ const Card = ({ title, url, github, desc, tags = [] }) => {
             <a
               href={url}
               target="_blank"
-              className="group  px-4 py-2 h-8 rounded-md text-slate-100 bg-slate-700 flex items-center gap-2 shadow-md transition-all duration-300 hover:bg-emerald-600 "
+              rel="noopener noreferrer"
+              className="group px-4 py-2 h-8 rounded-md text-slate-100 bg-slate-700 flex items-center gap-2 shadow-md transition-all duration-300 hover:bg-emerald-600 "
             >
               <span className="text-sm font-mono">Live</span>
               <span className="transition-transform duration-300 group-hover:-translate-y-1">
@@ -44,7 +45,8 @@ const Card = ({ title, url, github, desc, tags = [] }) => {
             <a
               href={github}
               target="_blank"
-              className="group  px-4 py-2 h-8 rounded-md text-slate-100 bg-slate-700 flex items-center gap-2 shadow-md transition-all duration-300 hover:bg-emerald-600"
+              rel="noopener noreferrer"
+              className="group px-4 py-2 h-8 rounded-md text-slate-100 bg-slate-700 flex items-center gap-2 shadow-md transition-all duration-300 hover:bg-emerald-600"
             >
               <span className="text-sm font-mono">Code</span>
               <span className="transition-transform duration-300 group-hover:-translate-y-1">
@@ -59,7 +61,7 @@ const Card = ({ title, url, github, desc, tags = [] }) => {
             {tags.map((tag, i) => (
               <button
                 key={i}
-                className="rounded-3xl p-2 border-1 bg-gray-400/10  border-gray-400 gap-1"
+                className="rounded-3xl p-2 border bg-gray-400/10  border-gray-400 gap-1"
               >
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-cyan-600 hover:text-white transition">
                   &lt;

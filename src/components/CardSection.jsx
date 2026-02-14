@@ -1,45 +1,6 @@
 import React from "react";
 import Card from "./Card";
 
-// const projects = [
-//   {
-//     title: "D Music Player",
-//     desc: "A simple and modern music player inspired by Spotify playlists, fully responsive and built with React and modern front-end tools, featuring play/pause, next/previous, seek functionality, and a clean UI",
-//     url: "https://dmusic-audiusapi.netlify.app/",
-//     tags: ["JavaScript", "React", "Context API", "CSS"],
-//   },
-//   {
-//     title: "Anki Arts",
-//     desc: "A visually rich and responsive art gallery website built with React & modern front-end tools. It showcases artwork it allows users to explore paintings, view detailed information about each artwork, and add selected paintings to the cart.",
-//     url: "https://ankiartsp.netlify.app/",
-//     tags: ["JavaScript", "React", "Context API", "Tailwind CSS"],
-//   },
-//   {
-//     title: "Myntra",
-//     desc: "A fully responsive Myntra clone built using React and Redux Toolkit, allowing users to add or remove items from the bag and view selected products with pricing details on a dedicated bag page.",
-//     url: "https://m9ntra-c10ne.netlify.app/",
-//     tags: ["JavaScript", "React", "CSS", "Redux Toolkit"],
-//   },
-//   {
-//     title: "Media Search App",
-//     desc: "React app using public APIs for media search with debounced search, Redux Toolkit state management, and responsive UI.",
-//     url: "https://d-media-search.netlify.app/",
-//     tags: ["React", "JavaScript", "APIs", "Redux Toolkit"],
-//   },
-//   {
-//     title: "PassWorld",
-//     desc: "A fully responsive password manager built using React and Context API, enabling users to securely add, edit, and manage passwords through a clean and user-friendly interface.",
-//     url: "https://dpassworld.netlify.app/",
-//     tags: ["JavaScript", "React", "Tailwind CSS"],
-//   },
-//   {
-//     title: "Portfolio",
-//     desc: "A modern, fully responsive personal portfolio website built with React and Tailwind CSS, featuring reusable components and clean UI design.",
-//     url: "https://divyanshu-sahu.netlify.app/",
-//     tags: ["JavaScript", "React", "Tailwind CSS"],
-//   },
-// ];
-
 const projects = [
   {
     title: "D Music Player",
@@ -87,7 +48,10 @@ const projects = [
 
 const CardSection = () => {
   return (
-    <div id="projects" className="md:px-16 sm:px-10 p-1">
+    <div
+      id="projects"
+      className="md:px-16 sm:px-10 p-1 scroll-mt-20 sm:scroll-mt-16"
+    >
       <div className="flex flex-col items-center">
         <div className="text-3xl  text-emerald-800 dark:text-emerald-300  underline underline-offset-[12px]  flex   justify-center font-mono font-bold md:mt-8">
           <div>

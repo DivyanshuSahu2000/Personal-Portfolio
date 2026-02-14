@@ -5,7 +5,9 @@ import CardSection from "./components/CardSection";
 import Footer from "./components/Footer";
 
 function App() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem("theme") || "dark";
+  });
   const toggleTheme = () =>
     // setTheme("light" ? "dark": "light")
     setTheme((prev) => (prev === "light" ? "dark" : "light"));
