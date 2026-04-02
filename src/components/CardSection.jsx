@@ -44,6 +44,13 @@ const projects = [
     github: "https://github.com/DivyanshuSahu2000/Personal-Portfolio",
     tags: ["JavaScript", "React", "Tailwind CSS"],
   },
+  {
+    title: "AuthFlow-MERN Auth System",
+    desc: "A full-stack authentication system built with MERN, featuring JWT based authentication, protected routes and a modern responsive UI using Material UI and Vite.",
+    url: "https://authflow-mern-frontend.vercel.app/",
+    github: "https://github.com/DivyanshuSahu2000/authFlow-mern",
+    tags: ["React", "Node", "Express", "Mongo Db", "JWT", "MUI"],
+  },
 ];
 
 const CardSection = () => {

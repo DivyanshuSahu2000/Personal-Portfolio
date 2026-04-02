@@ -1,4 +1,10 @@
 import React from "react";
+import { DiReact } from "react-icons/di";
+import { TbBrandJavascript } from "react-icons/tb";
+import { TbBrandRedux } from "react-icons/tb";
+import { FaGitAlt } from "react-icons/fa";
+import { RiGithubFill } from "react-icons/ri";
+import { RiTailwindCssLine } from "react-icons/ri";
 
 const Home = () => {
   return (
@@ -31,8 +37,36 @@ const Home = () => {
         <div className="inline-block px-4 py-2 rounded-full bg-emerald-100  font-bold  font-serif dark:bg-violet-800/20 text-green-900 dark:text-violet-300 text-[18px] tracking-wider  mb-2">
           Frontend Web Developer
         </div>
-        <div className="inline-block px-4 py-2 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-800 dark:text-emerald-300 text-[16px] font-medium mb-2">
-          React • JavaScript • Redux Toolkit • Tailwind CSS • Git • GitHub
+        <div className="flex flex-wrap justify-center items-center px-4 py-2 rounded-full bg-emerald-100 dark:bg-emerald-900/30 gap-x-2.5 gap-y-1 text-emerald-800 dark:text-emerald-300 text-[16px] font-medium mb-2">
+          <span className="flex items-center gap-0.5">
+            <DiReact className="text-sky-400" size={23} />
+            React
+          </span>
+
+          <span className="flex items-center gap-0.5">
+            <TbBrandJavascript className="text-amber-500" size={23} />
+            JavaScript
+          </span>
+
+          <span className="flex items-center gap-0.5">
+            <TbBrandRedux className="text-purple-600" size={23} />
+            Redux Toolkit
+          </span>
+
+          <span className="flex items-center gap-0.5">
+            <RiTailwindCssLine className="text-cyan-500" size={23} />
+            Tailwind CSS
+          </span>
+
+          <span className="flex items-center gap-0.5">
+            <FaGitAlt className="text-orange-600" size={23} />
+            Git
+          </span>
+
+          <span className="flex items-center gap-0.5">
+            <RiGithubFill className="text-black dark:text-white" size={23} />
+            GitHub
+          </span>
         </div>
 
         <div className=" relative bg-slate-100 dark:bg-slate-800 p-2 sm:p-5 rounded-lg border-l-4 border-emerald-500 animate-fade-in text-start ">
