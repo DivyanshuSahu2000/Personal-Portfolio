@@ -19,7 +19,7 @@ const projects = [
   {
     title: "Myntra",
     desc: "A fully responsive Myntra clone built with React and Redux Toolkit, where users can add or remove products from the bag and view pricing details on a dedicated checkout page.",
-    url: "https://m9ntra-c10ne.netlify.app/",
+    url: "https://mntra-c10ne.netlify.app/",
     github: "https://github.com/DivyanshuSahu2000/Myntra",
     tags: ["JavaScript", "React", "CSS", "Redux Toolkit"],
   },
