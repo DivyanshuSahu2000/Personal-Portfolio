@@ -20,18 +20,6 @@ const skillGroups = [
     ],
   },
   {
-    category: "Frontend",
-    icon: <FiCode size={19} />,
-    skills: [
-      "React",
-      "JavaScript",
-      "Tailwind CSS",
-      "Bootstrap",
-      "HTML5",
-      "React Router",
-    ],
-  },
-  {
     category: "Backend & Database",
     icon: <FiServer size={19} />,
     skills: [
