@@ -28,7 +28,15 @@ const Header = ({ theme, toggleTheme }) => {
               </li>
               <li>
                 <a
-                  className="dark:text-slate-100  hover:text-emerald-400 transition-colors duration-200 animated-link"
+                  className="dark:text-slate-100 hover:text-emerald-400 transition-colors duration-200 animated-link"
+                  href="#skills"
+                >
+                  Skills
+                </a>
+              </li>
+              <li>
+                <a
+                  className="dark:text-slate-100 hover:text-emerald-400 transition-colors duration-200 animated-link"
                   href="#projects"
                 >
                   Projects

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Skills from "./components/Skills";
 import CardSection from "./components/CardSection";
 import Footer from "./components/Footer";
 
@@ -19,6 +20,7 @@ function App() {
     <>
       <Header theme={theme} toggleTheme={toggleTheme} />
       <Home />
+      <Skills />
       <CardSection />
       <Footer />
     </>

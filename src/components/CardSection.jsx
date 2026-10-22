@@ -3,6 +3,20 @@ import Card from "./Card";
 
 const projects = [
   {
+  title: "SkillScan.AI Interview Prep Platform",
+  desc: "An AI-powered interview prep platform that generates personalized reports using job descriptions, resumes, and Google Gemini, with JWT authentication and saved reports.",
+  url: "https://d-skill-scan-ai.netlify.app/",
+  github: "https://github.com/DivyanshuSahu2000/SkillScan.AI",
+  tags: ["React", "Node", "Express", "MongoDb", "Gemini API", "JWT"],
+},
+ {
+    title: "AuthFlow-MERN Auth System",
+    desc: "A full-stack authentication system built with MERN, featuring JWT based authentication, protected routes and a modern responsive UI using Material UI and Vite.",
+    url: "https://authflow-mern-frontend.vercel.app/",
+    github: "https://github.com/DivyanshuSahu2000/authFlow-mern",
+    tags: ["React", "Node", "Express", "Mongo Db", "JWT", "MUI"],
+  },
+  {
     title: "D Music Player",
     desc: "A modern music player inspired by Spotify, built with React, featuring song fetching via the Audius API, play/pause, next/previous controls, seek functionality, and a fully responsive UI.",
     url: "https://dmusic-audiusapi.netlify.app/",
@@ -44,13 +58,7 @@ const projects = [
     github: "https://github.com/DivyanshuSahu2000/Personal-Portfolio",
     tags: ["JavaScript", "React", "Tailwind CSS"],
   },
-  {
-    title: "AuthFlow-MERN Auth System",
-    desc: "A full-stack authentication system built with MERN, featuring JWT based authentication, protected routes and a modern responsive UI using Material UI and Vite.",
-    url: "https://authflow-mern-frontend.vercel.app/",
-    github: "https://github.com/DivyanshuSahu2000/authFlow-mern",
-    tags: ["React", "Node", "Express", "Mongo Db", "JWT", "MUI"],
-  },
+
 ];
 
 const CardSection = () => {

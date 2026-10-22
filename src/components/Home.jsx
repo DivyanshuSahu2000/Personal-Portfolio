@@ -1,29 +1,25 @@
 import React from "react";
 import { DiReact } from "react-icons/di";
 import { TbBrandJavascript } from "react-icons/tb";
-import { TbBrandRedux } from "react-icons/tb";
-import { FaGitAlt } from "react-icons/fa";
-import { RiGithubFill } from "react-icons/ri";
-import { RiTailwindCssLine } from "react-icons/ri";
+import { FaNodeJs } from "react-icons/fa6";
+import { SiExpress, SiMongodb } from "react-icons/si";
 
 const Home = () => {
   return (
     <div
       id="home"
-      className=" flex px-1 md:px-7 pt-9  pb-8 md:flex-row-reverse 
+      className="flex px-1 pt-9 pb-8 md:flex-row-reverse md:gap-8 md:px-7 lg:gap-15
      flex-col justify-center items-center scroll-mt-14"
     >
-      <div className="w-3/5 flex justify-center mb-6 sm:mb-0 sm:p-6">
+      <div className="order-1 flex w-full justify-center px-4 md:order-1 md:flex-1 md:min-w-0 md:px-2 md:py-7">
         <img
           alt="Divyanshu Sahu"
-          className="relative rounded-lg  transition-all duration-300 dark:brightness-90 hover:scale-[1.01]  object-cover w-full h-auto 
-          dark:shadow-[0_0_50px_10px_rgba(200,140,211,0.45)]
-      shadow-[0_0_50px_10px_rgba(30,40,44,0.3)] aspect-[3/4] "
+          className="relative aspect-[3/4] w-40 rounded-lg object-cover transition-all duration-300 hover:scale-[1.01] dark:brightness-90 dark:shadow-[0_0_50px_10px_rgba(200,140,211,0.45)] shadow-[0_0_50px_10px_rgba(30,40,44,0.3)] sm:w-52 md:w-[95%]"
           src="/D1.webp"
         />
       </div>
       {/* w-full md:w-3/5 flex flex-col items-center md:items-start text-center md:text-left */}
-      <div className="w-full md:w-2/3 flex flex-col items-center md:items-start text-center md:text-left">
+      <div className="order-2 flex w-full flex-col items-center text-center md:order-2 md:flex-1 md:min-w-0 md:items-start md:text-left">
         <h1 className="font-mono text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-800 dark:text-slate-100 mb-2  animate-fade-in">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-purple-500 ">
             console.log
@@ -35,7 +31,7 @@ const Home = () => {
           <span className="text-slate-800 dark:text-slate-100">);</span>
         </h1>
         <div className="inline-block px-4 py-2 rounded-full bg-emerald-100  font-bold  font-serif dark:bg-violet-800/20 text-green-900 dark:text-violet-300 text-[18px] tracking-wider  mb-2">
-          Frontend Web Developer
+          Full-Stack Developer | MERN Stack
         </div>
         <div className="flex flex-wrap justify-center items-center px-4 py-2 rounded-full bg-emerald-100 dark:bg-emerald-900/30 gap-x-2.5 gap-y-1 text-emerald-800 dark:text-emerald-300 text-[16px] font-medium mb-2">
           <span className="flex items-center gap-0.5">
@@ -49,23 +45,18 @@ const Home = () => {
           </span>
 
           <span className="flex items-center gap-0.5">
-            <TbBrandRedux className="text-purple-600" size={23} />
-            Redux Toolkit
+            <FaNodeJs className="text-green-600" size={23} />
+            Node.js
           </span>
 
           <span className="flex items-center gap-0.5">
-            <RiTailwindCssLine className="text-cyan-500" size={23} />
-            Tailwind CSS
+            <SiExpress className="text-gray-700 dark:text-white" size={23} />
+            Express
           </span>
 
           <span className="flex items-center gap-0.5">
-            <FaGitAlt className="text-orange-600" size={23} />
-            Git
-          </span>
-
-          <span className="flex items-center gap-0.5">
-            <RiGithubFill className="text-black dark:text-white" size={23} />
-            GitHub
+            <SiMongodb className="text-green-600" size={23} />
+            MongoDB
           </span>
         </div>
 
@@ -74,16 +65,18 @@ const Home = () => {
             className="tracking-wide reveal-mask text-lg md:text-xl text-slate-700 dark:text-slate-300 font-serif leading-snug"
             style={{ WebkitTapHighlightColor: "transparent" }}
           >
-            Hi, I’m <strong>Divyanshu Sahu,</strong> a Frontend Web Developer
-            who builds responsive, real-world web applications using React,
-            Tailwind CSS, and modern JavaScript. <br />
+            Hi, I’m <strong>Divyanshu Sahu,</strong> a full-stack developer
+            focused on the MERN stack. I build responsive web applications
+            with React and JavaScript, and develop backend features using
+            Node.js, Express, and MongoDB. <br />
             <span className="font-extralight text-base md:text-lg leading-none sm:leading-tight ">
               {" "}
-              I have hands-on experience with Context API, Redux Toolkit, and
-              API integration through practical projects. <br />I enjoy turning
-              ideas into interactive products and am seeking junior frontend
-              developer role where I can contribute, learn, and grow as a
-              developer.
+              My projects include JWT-based authentication and an AI
+              interview-prep platform using the Gemini API. I’ve also worked
+              with Redux Toolkit, Context API, and REST API integration. <br />
+              I’m seeking a junior developer opportunity where I can contribute
+              across frontend or full-stack development and continue growing as
+              an engineer.
             </span>
             <span className="inline-block w-2 h-5  bg-emerald-500 ml-1 animate-pulse"></span>
           </p>
